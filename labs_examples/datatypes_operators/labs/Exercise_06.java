@@ -11,7 +11,13 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_06 {
 
     public static void main(String[] args) {
+        double pie = 3.14;
+        double radius = 3.14 * 3.14;
+        double height = 5;
 
+        double answer = pie *radius * height;
+
+        System.out.println(answer);
         // write code here
 
     }

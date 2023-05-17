@@ -31,7 +31,11 @@ public class Exercise_05 {
         // for example, replace(), substring(), contains(), indexOf() etc
         String indexOfstr = String.valueOf(str.indexOf('o'));
         System.out.println(indexOfstr);
+
+
     }
+
+
 
 
 }

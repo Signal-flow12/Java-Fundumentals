@@ -16,12 +16,22 @@ package labs_examples.datatypes_operators.labs;
  *      3. Print out the int
  *
  *      Notice how each type is converted. In which direction is information lost?
+ *      double to int
  *
  */
 
 public class Exercise_02 {
 
     public static void main(String[] args) {
+        int num =10;
+        double toInt = num;
+        System.out.println(toInt);
+
+        double newDouble = 10.5;
+        int newInt = (int) newDouble;
+
+        System.out.println(newInt);
+
 
         // write code here
 
